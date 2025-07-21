@@ -32,8 +32,6 @@ The following functionality must be implemented:
 
 ## Contents
 
-- Date: 21.08.
-  - Version: 1.
 - Introduction
 - Description of project and tasks
 - Loading photos
@@ -42,12 +40,6 @@ The following functionality must be implemented:
 - Command bar
 - Instructions to the Competitor
 - Other
-
-### Date: 21.08.
-
-```
-Version: 1.
-```
 
 **Introduction**
 
@@ -106,11 +98,6 @@ In the panel, user can switch between A to F theme.
 **Ordering photos**
 
 In this configuration panel, user can order the selected photos by drag and drop the photos.
-
-```
-Date: 21.08.
-Version: 1.
-```
 
 **Themes**
 
@@ -177,11 +164,6 @@ animation. Please make sure they are appealing.
 
 There is an option to load sample photos instead of dragging in custom photos.
 
-```
-Date: 21.08.
-Version: 1.
-```
-
 **Command bar**
 
 User can show command bar by pressing CTRL+K or "/". And user can return to normal from command bar
@@ -230,6 +212,7 @@ You may provide a README file for executing guide if necessary.
 The project will be assessed using comprehensive evaluation methods to ensure both technical implementation and user experience meet professional standards:
 
 **Technical Assessment:**
+
 - Functionality testing of all slideshow modes and theme implementations
 - Cross-browser testing in Firefox Developer Edition and Google Chrome
 - Code quality assessment for HTML structure, CSS organization, and JavaScript implementation
@@ -237,6 +220,7 @@ The project will be assessed using comprehensive evaluation methods to ensure bo
 - Performance evaluation of animations and large image handling
 
 **User Experience Evaluation:**
+
 - Interface usability and intuitive navigation assessment
 - Visual design quality and animation smoothness evaluation
 - Drag-and-drop functionality and user feedback systems
@@ -244,6 +228,7 @@ The project will be assessed using comprehensive evaluation methods to ensure bo
 - Configuration panel and command bar usability verification
 
 **Assessment Tools:**
+
 - Firefox Developer Edition and Google Chrome web browsers for primary testing
 - Browser developer tools for performance analysis and debugging verification
 - Manual testing of all user workflows and interaction patterns
@@ -253,7 +238,7 @@ The project will be assessed using comprehensive evaluation methods to ensure bo
 ## Mark distribution
 
 | WSOS SECTION | Description                            | Points |
-|--------------|----------------------------------------|--------|
+| ------------ | -------------------------------------- | ------ |
 | 1            | Work organization and self-management  | 0      |
 | 2            | Communication and interpersonal skills | 0      |
 | 3            | Design Implementation                  | 8.5    |
