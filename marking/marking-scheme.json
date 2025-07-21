@@ -1,0 +1,392 @@
+{
+  "totalMark": 17,
+  "wsosSections": {
+    "1": "Work organization and management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design implementation",
+    "4": "Front-end development",
+    "5": "Back-end development"
+  },
+  "subCriterions": [
+    {
+      "name": "Loading image files",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Module is reachable as described",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "/XX_module_e/",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "User is able to select photo image files",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to drag in photo image files to create slideshow",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Sample photos are used when user choose to load sample photos",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The caption is extracted from filename",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "capitalize and removing slug",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ordering photos",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "There is a view, or a page, for re-ordering the selected photos",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "via configuration",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The dragged in photos can be ordered manually by users",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Photos ordering can be done by drag and drop",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Slides Operating",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "When config button is clicked, the config panel is displayed, with the operating options",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "The 3 modes of switching is inside the config panel. The theme switching is inside the config panel.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "There are 3 modes for switching: manual control, auto-playing, random",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The slideshow can be controlled by keyboard",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Slideshow can be auto-played, in order",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "One photo showing after another",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The slideshow can be played in random order",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The photo slideshow can be turned into fullscreen browsing",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Theme",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "User is able to select themes",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "in configuration panel",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When the CSS is disabled in web browser, user is still able to choose from the file input and display the selected photos.",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Regardless of the layout and style. Just listing all selected photos is ok.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Theme A works as defined",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Photos toggling without any transition needed. Captions position and background/foreground color follows. Deduct 0.25 per error.",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not implemented or major errors"},
+              {"value": 0.25, "description": "Implemented with minor errors"},
+              {"value": 0.5, "description": "Fully working as defined"}
+            ]
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Theme B works as defined",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Photos go in from left to right. go out from right to left. Captions animation in Theme B follows the definition. Deduct 0.25 per error.",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not implemented or major errors"},
+              {"value": 0.25, "description": "Implemented with minor errors"},
+              {"value": 0.5, "description": "Fully working as defined"}
+            ]
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Theme C works as defined",
+          "maxMark": 0.75,
+          "wsosSection": 3,
+          "extraDescription": "Photos go in from bottom to top, go out from top to bottom. Captions animation in Theme C follows the definition. Deduct 0.25 per error.",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not implemented or major errors"},
+              {"value": 0.25, "description": "Partially implemented"},
+              {"value": 0.5, "description": "Mostly working with minor errors"},
+              {"value": 0.75, "description": "Fully working as defined"}
+            ]
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Theme D works as defined",
+          "maxMark": 0.75,
+          "wsosSection": 3,
+          "extraDescription": "Photos go in from left and hold at center. Go out to left. Captions animation in Theme D follows the definition. Deduct 0.25 per error.",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not implemented or major errors"},
+              {"value": 0.25, "description": "Partially implemented"},
+              {"value": 0.5, "description": "Mostly working with minor errors"},
+              {"value": 0.75, "description": "Fully working as defined"}
+            ]
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Theme E works as defined",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Photos go in with door open effect as described. Captions animation in Theme E follows the definition. Deduct 0.25 per error.",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not implemented or major errors"},
+              {"value": 0.25, "description": "Partially implemented"},
+              {"value": 0.5, "description": "Mostly working with minor errors"},
+              {"value": 0.75, "description": "Working with very minor issues"},
+              {"value": 1, "description": "Fully working as defined"}
+            ]
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "A new theme is created, and named \"Theme F\"",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "CSS for the themes are well organized and separate of concern",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Photos sliding in and out for Theme F is appealing",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "No CSS animations implemented.",
+            "Basic CSS animations implemented, which enhances some visual aspects.",
+            "Good use of CSS animations, which enhances the visual experience.",
+            "Excellent use of CSS animations, with all animations enhancing the user experience and contributing to a cohesive design."
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Captions animation for Theme F is appealing",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "judgementScoreDescription": [
+            "No CSS animations implemented.",
+            "Basic CSS animations implemented, which enhances some visual aspects.",
+            "Good use of CSS animations, which enhances the visual experience.",
+            "Excellent use of CSS animations, with all animations enhancing the user experience and contributing to a cohesive design."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Command Bar",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "User is able to show command bar by pressing CTRL+K or \"/\"",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to switch theme in command bar",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "by typing exact command and press ENTER",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to show options of partially matched commands choice",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to choose option by pressing keyboard up and down in the command bar",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to switch operating mode in command bar",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "manual control, auto-playing, random",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Able to return normal from command bar dialog by pressing ESC keyboard",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When the command bar is activated, the other part of the web page is dimmed",
+          "maxMark": 0.25,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    }
+  ]
+}
